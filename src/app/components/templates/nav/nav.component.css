@@ -1,0 +1,14 @@
+.container{
+  height: 85%;
+  background-color: rgb(30, 30, 30);
+  color: #ffff;
+}
+.side-nav{
+  background-color: rgb(70, 70, 70);
+}
+.nav-item{
+  color: #ffff;
+}
+i{
+  padding-right: .5rem;
+}
