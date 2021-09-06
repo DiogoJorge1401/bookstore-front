@@ -10,7 +10,7 @@ import { CategoryService } from '../category.service';
   styleUrls: ['./category-read.component.css']
 })
 export class CategoryReadComponent implements OnInit {
-  displayedColumns: string[] = ['position', 'name', 'description', 'actions'];
+  displayedColumns: string[] = ['id', 'name', 'description', 'books', 'actions'];
   public categorys: CategoryModel[] = [];
   constructor(
     private service: CategoryService
